@@ -1,0 +1,20 @@
+{
+  "name": "clinical-project",
+  "version": "1.0.0",
+  "description": "A project for introducing a clinic and letting users to book sessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peyman Seirafi",
+  "license": "ISC",
+  "dependencies": {
+    "@material-tailwind/html": "^2.2.2",
+    "flowbite": "^2.3.0",
+    "jquery": "^3.7.1",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
