@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>پیشخوان ادمین</title>
-    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="{% static "./css/output.css" %} %}">
 </head>
 <body dir="rtl" class="flex">
     <div class="sidebar bg-gray-50 w-max h-[100vh] relative">
@@ -35,16 +36,16 @@
                     <h3 class="font-bold mt-2 text-2xl">سابسیژن (subcision)</h3>
                     <p class="my-4">سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره</p>
                     <div class="flex gap-2">
-                        <button data-modal-target="edit-modal" id="edit_button_1" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="./assets/edit.svg" alt="edit" class="w-6" id="edit_image_1"></button>
-                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="./assets/close.svg" alt="delete" class="w-6"></button>
+                        <button data-modal-target="edit-modal" id="edit_button_1" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="{% static "./admin-panel/assets/edit.svg" %}" alt="edit" class="w-6" id="edit_image_1"></button>
+                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="{% static "./admin-panel/assets/close.svg" %}" alt="delete" class="w-6"></button>
                     </div>
                 </div>
                 <div id="card_2" class="pattern p-10 rounded-2xl drop-shadow-lg border-2 border-gray-400 h-max flex-grow flex flex-col justify-around">
                     <h3 class="font-bold mt-2 text-2xl">سابسیژن (subcision)</h3>
                     <p class="my-4">سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره</p>
                     <div class="flex gap-2">
-                        <button data-modal-target="edit-modal" id="edit_button_2" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="./assets/edit.svg" alt="edit" class="w-6" id="edit_image_2"></button>
-                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="./assets/close.svg" alt="delete" class="w-6"></button>
+                        <button data-modal-target="edit-modal" id="edit_button_2" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="{% static "./admin-panel/assets/edit.svg" %}" alt="edit" class="w-6" id="edit_image_2"></button>
+                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="{% static "./admin-panel/assets/close.svg" %}" alt="delete" class="w-6"></button>
                     </div>
                 </div>
             </div>
@@ -53,23 +54,23 @@
                     <h3 class="font-bold mt-2 text-2xl">سابسیژن (subcision)</h3>
                     <p class="my-4">سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاهه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره</p>
                     <div class="flex gap-2">
-                        <button data-modal-target="edit-modal" id="edit_button_3" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="./assets/edit.svg" alt="edit" class="w-6" id="edit_image_3"></button>
-                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="./assets/close.svg" alt="delete" class="w-6"></button>
+                        <button data-modal-target="edit-modal" id="edit_button_3" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="{% static "./admin-panel/assets/edit.svg" %}" alt="edit" class="w-6" id="edit_image_3"></button>
+                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="{% static "./admin-panel/assets/close.svg" %}" alt="delete" class="w-6"></button>
                     </div>
                 </div>
                 <div id="card_4" class="pattern p-10 rounded-2xl drop-shadow-lg border-2 border-gray-400 h-max flex-grow flex flex-col justify-around">
                     <h3 class="font-bold mt-2 text-2xl">سابسیژن (subcision)</h3>
                     <p class="my-4">سابسیژن، یه روش تهاجمی اما بدون برشه که میتونه کاملا جای زخم های قدیمی، فرورفتگی های پوستی، جای جوش هارو توی مدت زمان کوتاه از بین ببره</p>
                     <div class="flex gap-2">
-                        <button data-modal-target="edit-modal" id="edit_button_4" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="./assets/edit.svg" alt="edit" class="w-6" id="edit_image_4"></button>
-                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="./assets/close.svg" alt="delete" class="w-6"></button>
+                        <button data-modal-target="edit-modal" id="edit_button_4" data-modal-toggle="edit-modal" aria-label="edit" class="edit_button bg-blue-200 hover:bg-blue-300 transition-all duration-300 p-2 rounded-full border-2 border-blue-600"><img src="{% static "./admin-panel/assets/edit.svg" %}" alt="edit" class="w-6" id="edit_image_4"></button>
+                        <button data-modal-target="delete-modal" data-modal-toggle="delete-modal" type="button" aria-label="delete" class="bg-red-200 hover:bg-red-300 transition-all duration-300 p-2 rounded-full border-2 border-red-600"><img src="{% static "./admin-panel/assets/close.svg" %}" alt="delete" class="w-6"></button>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <button data-modal-target="crud-modal" data-modal-toggle="crud-modal" type="button"><img src="./assets/add.svg" alt="add" class="absolute bottom-4 w-12 right-64 bg-gray-300 hover:bg-gray-400 p-2 rounded-full hover:rotate-180 transition-all duration-700"></button>
+    <button data-modal-target="crud-modal" data-modal-toggle="crud-modal" type="button"><img src="{% static "./admin-panel/assets/add.svg" %}" alt="add" class="absolute bottom-4 w-12 right-64 bg-gray-300 hover:bg-gray-400 p-2 rounded-full hover:rotate-180 transition-all duration-700"></button>
     <div id="delete-modal" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-md max-h-full">
             <div class="relative bg-white rounded-lg shadow">
@@ -164,7 +165,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="./assets/services/1.png" id="prev_photo" alt="prev_photo" class="rounded-3xl">
+                            <imgsrc="{% static "./admin-panel/assets/services/1.png" %}" id="prev_photo" alt="prev_photo" class="rounded-3xl">
                         </div>
                     </div>
                     <div class="flex justify-center pt-5 h-min self-stretch">
@@ -178,8 +179,8 @@
         </div>
     </div>
 
-    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
-    <script src="./js/services-page.js"></script>
+    <script src="{% static "./npm-files/node_modules/jquery/dist/jquery.min.js" %}"></script>
+    <script src="{% static "./npm-files/node_modules/flowbite/dist/flowbite.min.js" %}"></script>
+    <script src="{% static "./admin-panel/js/services-page.js" %}"></script>
 </body>
 </html>
