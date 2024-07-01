@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import LoginPage, DoctorsPage, ModerationPage, ServicesPage, VisitsPage, HelpPage
+from main.views import LoginPage, DoctorsPage, ModerationPage, ServicesPage, VisitsPage, HelpPage
 
 urlpatterns = [
     path('panel/login', LoginPage.as_view(), name='login'),

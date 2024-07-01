@@ -9,5 +9,5 @@ $(".edit_button").on("click", function (event) {
 
   name_field.value = data[0].innerHTML;
   description_field.value = data[1].innerHTML;
-  prev_photo.src = `./assets/services/${event.target.id.split("_")[2]}.png`;
+  prev_photo.src = `/static/admin-panel/assets/services/${event.target.id.split("_")[2]}.png`;
 });
