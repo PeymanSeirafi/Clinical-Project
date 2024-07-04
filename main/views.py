@@ -9,7 +9,6 @@ from rest_framework.decorators import action
 
 # class PanelViewSet(ViewSet):
 
-
 class LoginPage(APIView):
     def get(self, request):
         return Response(template_name='admin-panel/admin-login.html')
